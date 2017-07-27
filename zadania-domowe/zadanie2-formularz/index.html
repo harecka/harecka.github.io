@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/karolina.harecka@gmail.com" method="post">
+        <label for="imie">Imię</label>
+        <input type="text" name="imie" id="imie"><br>
+        <label for="nazwisko">Nazwisko</label>
+        <input type="text" name="nazwisko" id="nazwisko"><br>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email"><br>
+        <label for="telefon">Numer telefonu</label>
+        <input type="text" name="telefon" id="telefon"><br>
+        <label for="miasto">Miasto</label>
+        <select>
+    <option value="wybierz">wybierz</option>
+    <option value="krakow">Kraków</option>
+    <option value="warszawa">Warszawa</option>
+    <option value="gdansk">Gdańsk</option>
+    </select><br>
+        <p>Płeć</p><br>
+        <label for="kobieta">
+        <input type="radio" name="plec" id="kobieta" checked>Kobieta</label> <br>
+        <label for="mezczyzna">
+        <input type="radio" name="plec" id="mezczyzna">Mężczyzna </label> <br>
+        <label for="zgoda">
+        <input type="checkbox" name="zgoda" id="zgoda"> Wyrażam zgodę na przetwarzanie danych osobowych</label><br><br>
+        <label for="wiadomosc">Wiadomość</label><br>
+        <textarea name="wiadomosc" cols="50" rows="10" id="wiadomosc"></textarea>
+        <label for="submit"> </label>
+        <input type="submit" name="submit" id="submit">
+    </form>
+</body>
+</html>
