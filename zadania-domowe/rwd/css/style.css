@@ -43,7 +43,9 @@ h2 {
     div {
         background-image: url(../img/man-2.jpg);
         background-size: cover;
-        height: 70%;}
+        height: 70%;
+overflow-x: hidden;
+    }
     header {
          top: 15%;
    left: 55%;
