@@ -1,0 +1,17 @@
+@mixin portfolio-item {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+@mixin contact-form {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 0 solid #2b4a64;
+    background-color: #2b4a64;
+    
+    
+}

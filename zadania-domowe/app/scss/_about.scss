@@ -1,0 +1,9 @@
+@import "variables";
+
+#about {
+    background-color: $about-background-color;
+    text-align: center;
+    img{
+        max-height: 350px;
+    }
+}

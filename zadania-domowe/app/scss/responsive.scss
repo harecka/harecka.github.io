@@ -1,0 +1,12 @@
+@media all and(max-width: 768px) {
+    #contact {
+        text-align: center;
+        h2 {
+            text-align: center;
+        }
+        .contact-form input[type="submit"] {
+            margin: auto 0;
+            float: none;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+#main-nav {
+    background-color: #FFF;
+    border: none;
+    a {
+        color: $link-color;
+        &:hover {
+            color: $base-color;
+        }
+    }
+}
